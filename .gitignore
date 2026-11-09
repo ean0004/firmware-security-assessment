@@ -1,0 +1,21 @@
+
+# Python virtual environment
+.venv/
+
+# Private cryptographic keys and device state
+lab_data/
+*.pem
+*.key
+
+# Generated firmware test packages
+update*.json
+old_update.json
+unsigned.json
+
+# Python cache and testing artifacts
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Editor and local files
+.vscode/
